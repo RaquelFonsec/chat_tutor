@@ -22,7 +22,7 @@ Este projeto é uma API desenvolvida com FastAPI que serve como backend para um 
 
 
 
-**├── app/
+##├── app/
 │   ├── core/
 │   │   ├── __init__.py
 │   │   ├── config.py         # Configurações da aplicação, chaves de API, prompts
@@ -47,7 +47,7 @@ Este projeto é uma API desenvolvida com FastAPI que serve como backend para um 
 ├── .env.example            
 ├── requirements.txt        
 ├── todo.md               
-└── README.md    **           
+└── README.md    ##      
 ```
 
 
@@ -57,7 +57,7 @@ Este projeto é uma API desenvolvida com FastAPI que serve como backend para um 
 
 
 
-## Pré-requisitos
+Pré-requisitos
 
 - Python 3.8 ou superior
 - pip (gerenciador de pacotes Python)
@@ -66,7 +66,7 @@ Este projeto é uma API desenvolvida com FastAPI que serve como backend para um 
 
 
 
-## Configuração do Ambiente
+ Configuração do Ambiente
 
 
 
@@ -78,7 +78,7 @@ Este projeto é uma API desenvolvida com FastAPI que serve como backend para um 
     
     python3 -m venv venv
     source venv/bin/activate  # No Linux/macOS
-    # venv\Scripts\activate    # No Windows
+     venv\Scripts\activate    # No Windows
     
 
 3.  Instale as dependências:
@@ -101,12 +101,12 @@ Este projeto é uma API desenvolvida com FastAPI que serve como backend para um 
 
 
 
-    # Se estiver usando MongoDB Atlas ou uma URI de conexão completa:
+     Se estiver usando MongoDB Atlas ou uma URI de conexão completa:
     MONGODB_API_KEY="mongodb+srv://USER:PASS@HOST/DBNAME?retryWrites=true&w=majority&appName=assistenteIA"
 
 
 
-    # OU, se estiver configurando usuário, senha, host separadamente (para srv ou local):
+     OU, se estiver configurando usuário, senha, host separadamente (para srv ou local):
     MONGODB_USER="SEU_USUARIO_MONGODB"
     MONGODB_PASSWORD="SUA_SENHA_MONGODB"
     MONGODB_HOST="SEU_HOST_MONGODB_COM_PORTA_SE_NECESSARIO" # Ex: cluster0.xyz.mongodb.net ou localhost:27017
@@ -118,7 +118,7 @@ Este projeto é uma API desenvolvida com FastAPI que serve como backend para um 
     - Se `MONGODB_USER`, `MONGODB_PASSWORD`, e `MONGODB_HOST` forem fornecidos, uma URI `mongodb+srv://` será construída.
     - Se nenhuma credencial for fornecida, tentará conectar a `mongodb://localhost:27017/assistenteIA`.
 
-## Como Executar a Aplicação
+ Como Executar a Aplicação
 
 
 No diretório raiz do projeto, execute o servidor Uvicorn:
