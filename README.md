@@ -19,7 +19,10 @@ Este projeto é uma API desenvolvida com FastAPI que serve como backend para um 
 ## Estrutura do Projeto
 
 
-├── app/
+
+
+
+**├── app/
 │   ├── core/
 │   │   ├── __init__.py
 │   │   ├── config.py         # Configurações da aplicação, chaves de API, prompts
@@ -44,8 +47,13 @@ Este projeto é uma API desenvolvida com FastAPI que serve como backend para um 
 ├── .env.example            
 ├── requirements.txt        
 ├── todo.md               
-└── README.md               
+└── README.md    **           
 ```
+
+
+
+
+
 
 
 
@@ -62,27 +70,27 @@ Este projeto é uma API desenvolvida com FastAPI que serve como backend para um 
 
 
 
-1.  **Clone o repositório ou baixe os arquivos do projeto.**
+1.  Clone o repositório ou baixe os arquivos do projeto.
 
 
 
-2.  **Crie e ative um ambiente virtual (recomendado):**
-    ```bash
+2.  crie e ative um ambiente virtual (recomendado)
+    
     python3 -m venv venv
     source venv/bin/activate  # No Linux/macOS
     # venv\Scripts\activate    # No Windows
-    ```
+    
 
-3.  **Instale as dependências:**
+3.  Instale as dependências:
     Navegue até o diretório raiz do projeto (onde `requirements.txt` está localizado) e execute:
     ```bash
     pip install -r requirements.txt
     ```
 
 
-4.  **Configure as Variáveis de Ambiente:**
+4.  Configure as Variáveis de Ambiente:
     Copie o arquivo `.env.example` para um novo arquivo chamado `.env` no diretório raiz do projeto:
-    ```bash
+    
     cp .env.example .env
     ```
     Edite o arquivo `.env` e preencha com suas chaves de API e detalhes de conexão do MongoDB:
@@ -115,7 +123,7 @@ Este projeto é uma API desenvolvida com FastAPI que serve como backend para um 
 
 No diretório raiz do projeto, execute o servidor Uvicorn:
 
-```bash
+
 python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
