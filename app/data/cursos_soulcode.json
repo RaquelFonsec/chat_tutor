@@ -1,0 +1,13 @@
+[
+    {
+      "Curso": "Curso de Exemplo 1",
+      "Link": "http://example.com/curso1",
+      "Palavras-chave": "exemplo, curso, aprendizado"
+    },
+    {
+      "Curso": "Curso de Exemplo 2",
+      "Link": "http://example.com/curso2",
+      "Palavras-chave": "outro, exemplo, tecnologia"
+    }
+  ]
+  
