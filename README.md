@@ -20,9 +20,7 @@ Este projeto é uma API desenvolvida com FastAPI que serve como backend para um 
 
 
 
-
-
-##├── app/
+├── app/
 │   ├── core/
 │   │   ├── __init__.py
 │   │   ├── config.py         # Configurações da aplicação, chaves de API, prompts
@@ -47,7 +45,7 @@ Este projeto é uma API desenvolvida com FastAPI que serve como backend para um 
 ├── .env.example            
 ├── requirements.txt        
 ├── todo.md               
-└── README.md    ##      
+###└── README.md      
 ```
 
 
